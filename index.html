@@ -4,6 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>How to Make Money from Ads on Social Media</title>
+  
+  <!-- ستايلات الموقع -->
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -70,6 +72,14 @@
       color: #777;
     }
   </style>
+
+  <!--
+    هذا السكربت يقوم بتحميل مكتبة Google AdSense الأساسية.
+    client=ca-pub-1011584490449026 هو معرف حساب أدسنس الخاص بك.
+    خاص بتحميل إعلانات جوجل بشكل غير متزامن لتحسين سرعة تحميل الصفحة.
+  -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1011584490449026"
+     crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -123,6 +133,29 @@
 
   <h2>7. Conclusion</h2>
   <p>Making money through ads on social media is possible for anyone who is willing to be strategic, creative, and consistent. Start small, learn continuously, and grow your audience — and the earnings will follow.</p>
+
+  <!--
+    إعلان Google AdSense:
+    - عنصر <ins> هو مكان الإعلان في الصفحة.
+    - data-ad-client: رقم حساب AdSense الخاص بك.
+    - data-ad-slot: رقم الوحدة الإعلانية (Ad unit ID) الذي تحصل عليه من حسابك في AdSense.
+    - data-ad-format="auto": يحدد أن الإعلان يستجيب تلقائياً لحجم العنصر.
+    - data-full-width-responsive="true": لجعل الإعلان يستجيب لعرض الشاشة بالكامل.
+  -->
+  <ins class="adsbygoogle"
+       style="display:block"
+       data-ad-client="ca-pub-1011584490449026"
+       data-ad-slot="1234567890"  <!-- عوّض هذا الرقم برقم وحدة إعلانك الفعلي -->
+       data-ad-format="auto"
+       data-full-width-responsive="true"></ins>
+  <script>
+    /*
+      هذا السكربت يخبر AdSense بتحميل الإعلان في المكان المحدد.
+      (adsbygoogle = window.adsbygoogle || []).push({});  
+      يعني: إذا لم تكن قائمة الإعلانات موجودة فأنشئها، ثم أضف الإعلان الجديد.
+    */
+    (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
 </div>
 
 <div class="insta-section">
